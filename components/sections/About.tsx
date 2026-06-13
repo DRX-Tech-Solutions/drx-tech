@@ -1,13 +1,15 @@
 "use client";
 
-import { Zap, Award, Globe, Heart } from "lucide-react";
+import Image from "next/image";
+
+import { Rocket, Award, Globe, Heart } from "lucide-react";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 
 const values = [
   { icon: Award, title: "Excelência", description: "Código de qualidade em cada projeto" },
   { icon: Globe, title: "Inovação", description: "Tecnologias modernas e atualizadas" },
   { icon: Heart, title: "Dedicação", description: "Comprometimento total com o cliente" },
-  { icon: Zap, title: "Agilidade", description: "Entregas no prazo, sempre" },
+  { icon: Rocket, title: "Agilidade", description: "Entregas no prazo, sempre" },
 ];
 
 export default function About() {
@@ -27,13 +29,7 @@ export default function About() {
                 <div className="absolute inset-0 bg-grid opacity-20" />
                 <div className="relative z-10">
                   <div className="flex items-center gap-3 mb-8">
-                    <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
-                      <Zap className="w-5 h-5 text-white" strokeWidth={2.5} />
-                    </div>
-                    <div>
-                      <div className="text-white font-display font-bold text-sm">DRX Tech Solutions</div>
-                      <div className="text-gray-light text-xs">Agência Digital Premium</div>
-                    </div>
+                    <Image src="/logo-drx-dark.svg" alt="DRX Tech Solutions" width={180} height={40} />
                   </div>
 
                   <div className="space-y-4 mb-8">

@@ -17,9 +17,9 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/logo-drx-dark.svg",
-    shortcut: "/logo-drx-dark.svg",
-    apple: "/logo-drx-dark.svg",
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
   },
   metadataBase: new URL("https://drxtechsolutions.com.br"),
   title: {
