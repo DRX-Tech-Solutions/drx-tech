@@ -59,9 +59,9 @@ export default function About() {
 
                   <div className="grid grid-cols-2 gap-3">
                     {[
-                      { value: "50+", label: "Projetos" },
-                      { value: "3 anos", label: "Experiência" },
-                      { value: "100%", label: "Satisfação" },
+                      { value: "100%", label: "Sob medida" },
+                      { value: "<2s", label: "Performance" },
+                      { value: "SEO", label: "Otimizado" },
                       { value: "24/7", label: "Suporte" },
                     ].map((item) => (
                       <div key={item.label} className="bg-white/5 rounded-xl p-4 text-center">
@@ -75,8 +75,8 @@ export default function About() {
 
               {/* Floating badge */}
               <div className="absolute -bottom-4 -right-4 bg-primary text-white rounded-2xl px-5 py-3 shadow-glow-lg">
-                <div className="text-2xl font-display font-bold">98%</div>
-                <div className="text-xs text-white/80">clientes satisfeitos</div>
+                <div className="text-2xl font-display font-bold">100%</div>
+                <div className="text-xs text-white/80">código sob medida</div>
               </div>
             </div>
           </AnimatedSection>

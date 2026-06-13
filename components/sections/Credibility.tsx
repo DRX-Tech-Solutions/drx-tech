@@ -94,8 +94,8 @@ export default function Credibility() {
                     ))}
                   </div>
                   <p className="text-xs text-gray">
-                    <strong className="text-dark">50+ empresas</strong> já transformaram sua
-                    presença digital
+                    <strong className="text-dark">Empresas</strong> que investiram em presença
+                    digital profissional
                   </p>
                 </div>
               </div>

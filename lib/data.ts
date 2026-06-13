@@ -73,7 +73,7 @@ export const projects: Project[] = [
       "Website institucional para empresa de limpeza profissional. Design limpo com foco em transmitir confiança e capturar orçamentos online.",
     category: "Website Institucional",
     tags: ["Next.js", "Tailwind", "SEO"],
-    image: "/drx-cleaning.webp",
+    image: "/images/project-cleaning.jpg",
     url: "#",
   },
   {
@@ -83,7 +83,7 @@ export const projects: Project[] = [
       "Plataforma digital para mentor de desenvolvimento pessoal e profissional. Landing page de alta conversão com captação de leads.",
     category: "Landing Page",
     tags: ["React", "Framer Motion", "CRO"],
-    image: "/protagonize.webp",
+    image: "/images/project-protagonize.jpg",
     url: "#",
   },
   {
@@ -93,7 +93,7 @@ export const projects: Project[] = [
       "Site premium para marcenaria especializada em móveis planejados. Portfólio visual com galeria de projetos e formulário de orçamento.",
     category: "Portfólio & Orçamento",
     tags: ["Next.js", "Gallery", "WhatsApp"],
-    image: "/dx-marcenaria.webp",
+    image: "/images/project-marcenaria.jpg",
     url: "#",
   },
 ];
@@ -134,7 +134,7 @@ export const plans: Plan[] = [
     id: "starter",
     name: "Starter",
     subtitle: "Landing Page",
-    price: "A partir de",
+    price: "R$ 1.497",
     description: "Ideal para validar seu negócio online com uma página de alta conversão.",
     features: [
       "Landing Page completa",
@@ -146,13 +146,13 @@ export const plans: Plan[] = [
       "Entrega em 7 dias",
     ],
     highlight: false,
-    cta: "Solicitar orçamento",
+    cta: "Receber proposta personalizada",
   },
   {
     id: "business",
     name: "Business",
     subtitle: "Website Empresarial",
-    price: "A partir de",
+    price: "R$ 3.497",
     description: "Solução completa para empresas que buscam autoridade e presença digital forte.",
     features: [
       "Site completo até 8 páginas",
@@ -166,7 +166,7 @@ export const plans: Plan[] = [
       "Entrega em 15 dias",
     ],
     highlight: true,
-    cta: "Quero este plano",
+    cta: "Agendar uma reunião gratuita",
   },
   {
     id: "premium",
@@ -191,10 +191,10 @@ export const plans: Plan[] = [
 ];
 
 export const stats = [
-  { value: "50+", label: "Projetos entregues", description: "Websites e landing pages" },
-  { value: "98%", label: "Clientes satisfeitos", description: "Taxa de aprovação" },
-  { value: "3x", label: "Mais leads", description: "Média dos nossos clientes" },
-  { value: "<2s", label: "Tempo de carga", description: "Performance garantida" },
+  { value: "Modern", label: "Stack tecnológico", description: "React, Next.js, TypeScript" },
+  { value: "100%", label: "Código sob medida", description: "Sem templates genéricos" },
+  { value: "<2s", label: "Tempo de carregamento", description: "Performance otimizada" },
+  { value: "24/7", label: "Suporte contínuo", description: "Sempre disponíveis" },
 ];
 
 export const differentials = [

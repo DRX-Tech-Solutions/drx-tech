@@ -6,7 +6,7 @@ import { ArrowRight, Play, CheckCircle2, TrendingUp, Globe, Zap } from "lucide-r
 const floatingCards = [
   {
     icon: TrendingUp,
-    label: "+287% em leads",
+    label: "Performance elevada",
     sub: "DRX Cleaning",
     color: "bg-emerald-500",
     position: "top-1/4 -left-4 lg:-left-8",
@@ -22,7 +22,7 @@ const floatingCards = [
   },
   {
     icon: Zap,
-    label: "Performance 98/100",
+    label: "Lighthouse 90+",
     sub: "Lighthouse Score",
     color: "bg-amber-500",
     position: "bottom-1/4 -left-2 lg:-left-6",
@@ -34,6 +34,7 @@ const trustBadges = [
   "Design Responsivo",
   "SEO Otimizado",
   "Alta Performance",
+  "Entrega Rápida",
 ];
 
 export default function Hero() {
@@ -86,8 +87,8 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="font-display font-bold text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.1] tracking-tight text-balance mb-6"
             >
-              Websites Profissionais para Empresas que Querem{" "}
-              <span className="text-primary">Crescer</span>
+              Transformamos ideias em experiências digitais que{" "}
+              <span className="text-primary">geram resultados.</span>
             </motion.h1>
 
             {/* Subheadline */}
@@ -97,8 +98,8 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-gray-light text-lg lg:text-xl leading-relaxed mb-8 max-w-lg"
             >
-              Ajudamos empresas a fortalecer sua presença digital através de websites
-              modernos, rápidos e focados em resultados.
+              Desenvolvemos websites modernos, rápidos e profissionais para empresas
+              que desejam crescer e se destacar no mercado digital.
             </motion.p>
 
             {/* Trust badges */}
@@ -127,7 +128,7 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-3"
             >
               <a href="#contato" className="btn-primary px-8 py-4 text-base">
-                Solicitar Orçamento
+                Receber proposta personalizada
                 <ArrowRight className="w-5 h-5" />
               </a>
               <a
@@ -137,7 +138,7 @@ export default function Hero() {
                 <div className="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center">
                   <Play className="w-4 h-4 text-white fill-white ml-0.5" />
                 </div>
-                Ver Portfólio
+                Ver nossos projetos
               </a>
             </motion.div>
           </div>
@@ -230,12 +231,12 @@ export default function Hero() {
           className="mt-16 lg:mt-20 pt-10 border-t border-white/10 grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
         >
           {[
-            { value: "50+", label: "Projetos entregues" },
-            { value: "98%", label: "Clientes satisfeitos" },
-            { value: "3x", label: "Mais leads gerados" },
+            { value: "Modern", label: "Stack tecnológico" },
+            { value: "100%", label: "Código sob medida" },
             { value: "<2s", label: "Tempo de carregamento" },
+            { value: "24/7", label: "Suporte contínuo" },
           ].map((stat) => (
-            <div key={stat.label} className="text-center">
+            <div key={stat.label} className="text-center lg:text-left">
               <div className="font-display font-bold text-white text-3xl lg:text-4xl">
                 {stat.value}
               </div>
@@ -245,7 +246,17 @@ export default function Hero() {
         </motion.div>
       </div>
 
-
+      {/* Scroll indicator */}
+      <motion.div
+        className="absolute bottom-8 left-1/2 -translate-x-1/2"
+        animate={{ y: [0, 6, 0] }}
+        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+      >
+        <div className="flex flex-col items-center gap-2">
+          <span className="text-gray-light text-xs tracking-widest uppercase">Scroll</span>
+          <div className="w-px h-8 bg-gradient-to-b from-gray-light/50 to-transparent" />
+        </div>
+      </motion.div>
     </section>
   );
 }

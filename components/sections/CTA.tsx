@@ -29,12 +29,12 @@ export default function CTA() {
             Pronto para começar?
           </div>
           <h2 className="font-display font-bold text-white text-3xl sm:text-4xl lg:text-5xl xl:text-6xl mb-6 leading-tight text-balance">
-            Pronto para levar sua empresa para o{" "}
-            <span className="text-white/80">próximo nível?</span>
+            Pronto para ter uma presença digital{" "}
+            <span className="text-white/80">que gera resultados?</span>
           </h2>
           <p className="text-white/80 text-lg lg:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-            Mais de 50 empresas já transformaram sua presença digital com a DRX Tech.
-            A sua pode ser a próxima.
+            Cada projeto começa com uma conversa. Conte-nos sobre o seu negócio
+            e receba uma proposta personalizada sem compromisso.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -42,7 +42,7 @@ export default function CTA() {
               href="#contato"
               className="inline-flex items-center gap-2 bg-white text-primary font-bold px-8 py-4 rounded-xl hover:bg-gray-50 transition-all duration-200 hover:-translate-y-0.5 shadow-xl hover:shadow-2xl text-base"
             >
-              Solicitar Orçamento Gratuito
+              Receber proposta personalizada
               <ArrowRight className="w-5 h-5" />
             </a>
             <a

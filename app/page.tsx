@@ -9,6 +9,7 @@ import Differentials from "@/components/sections/Differentials";
 import Pricing from "@/components/sections/Pricing";
 import About from "@/components/sections/About";
 import CTA from "@/components/sections/CTA";
+import Technologies from "@/components/sections/Technologies";
 import Contact from "@/components/sections/Contact";
 
 export default function HomePage() {
@@ -19,6 +20,7 @@ export default function HomePage() {
         <Hero />
         <Credibility />
         <Services />
+        <Technologies />
         <Process />
         <Portfolio />
         <Differentials />
