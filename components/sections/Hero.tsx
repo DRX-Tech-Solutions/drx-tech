@@ -77,7 +77,7 @@ export default function Hero() {
               className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 text-primary text-xs font-semibold px-4 py-2 rounded-full mb-6"
             >
               <span className="w-1.5 h-1.5 bg-primary rounded-full animate-pulse" />
-              Agência Digital Premium
+              Desenvolvimento Web Profissional
             </motion.div>
 
             {/* Headline */}
@@ -236,7 +236,7 @@ export default function Hero() {
             { value: "<2s", label: "Tempo de carregamento" },
             { value: "24/7", label: "Suporte contínuo" },
           ].map((stat) => (
-            <div key={stat.label} className="text-center lg:text-left">
+            <div key={stat.label} className="text-center">
               <div className="font-display font-bold text-white text-3xl lg:text-4xl">
                 {stat.value}
               </div>
@@ -245,18 +245,6 @@ export default function Hero() {
           ))}
         </motion.div>
       </div>
-
-      {/* Scroll indicator */}
-      <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        animate={{ y: [0, 6, 0] }}
-        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <div className="flex flex-col items-center gap-2">
-          <span className="text-gray-light text-xs tracking-widest uppercase">Scroll</span>
-          <div className="w-px h-8 bg-gradient-to-b from-gray-light/50 to-transparent" />
-        </div>
-      </motion.div>
     </section>
   );
 }

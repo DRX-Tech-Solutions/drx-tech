@@ -16,11 +16,6 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  icons: {
-    icon: "/logo-drx-dark.svg",
-    shortcut: "/logo-drx-dark.svg",
-    apple: "/logo-drx-dark.svg",
-  },
   metadataBase: new URL("https://drxtechsolutions.com.br"),
   title: {
     default: "DRX Tech Solutions | Websites Profissionais para Empresas",
